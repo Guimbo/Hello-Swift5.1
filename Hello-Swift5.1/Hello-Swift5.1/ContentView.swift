@@ -30,6 +30,9 @@ struct ContentView : View {
     var body: some View {
         //Text("Hello SwiftUI")
         
+
+
+     //   var color: UIColor = 
         let time = 10
         return Text(
             "You have \(time) minutes to commit your project",

@@ -93,8 +93,12 @@ let MyBestBudy = Dog(name: "Sicrano", age: 3) // thats works
 //    //!authenticateWithLoggedIn()
 //}
 
-
-
-
+//MARK: Add auto doc in functions select func with command
+/// Print concatened values
+/// - Parameter value: Int
+/// - Parameter mensage: String
+func printValue(value: Int, mensage: String){
+    print("\(mensage) + \(value)")
+}
 
 
